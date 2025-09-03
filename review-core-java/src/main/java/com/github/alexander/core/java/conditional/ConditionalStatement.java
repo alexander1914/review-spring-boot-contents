@@ -59,5 +59,24 @@ public class ConditionalStatement {
                 System.out.println("Enter a valid number...");
 
         }
+
+        /// For loop there are three ways to do like while, for and foreach
+
+        /// While
+        int i = 0;
+        while (i <= 3){
+            System.out.println("Jesus is the best friends: " + i);
+            i++;
+        }
+
+        /// Do While
+        do {
+            System.out.println("The Palmeiras is FIFA World cup Champions");
+        }while (i > 1);
+
+        /// For
+        for (int j = 1; j <= 3; j++) {
+            System.out.println("Palmeiras has: " + j +  "the Libertadores american cup..");
+        }
     }
 }
